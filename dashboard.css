@@ -1,0 +1,113 @@
+.sidebar .image-text img{
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background: rgb(252, 252, 252);
+    padding: 10px 14px;
+    transition: 0.5s;
+}
+body {
+    height: 100vh;
+    background: rgb(237, 237, 233);
+}
+.sidebar header .image-text {
+    display: flex;
+    align-items: center;
+}
+.sidebar .text {
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+    white-space: nowrap;
+}
+.sidebar .image {
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header .image-text .header-text {
+    display: flex;
+    flex-direction: column;
+}
+.header-text .name {
+    margin-top: -2px;
+}
+.header-text .name {
+    font-weight: 600;
+}
+.header-text .profession {
+    font-weight: 600;
+}
+.sidebar header {
+    position: relative;
+}
+.sidebar li {
+    height: 50px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.sidebar li .icon {
+    font-size: 20px;
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar li .text {
+    color: var(--text-color);
+}
+.sidebar li a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.sidebar .search-box {
+    background: rgb(239, 235, 235);
+}
+.search-box input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: var(--primary-color);
+    border-radius: 6px;
+}
+.sidebar header .toggle {
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    height: 25px;
+    width: 25px;
+    background: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--sidebar-color);
+    font-size: px;
+}
+.sidebar li a:hover {
+    background: rgb(215, 214, 214);
+    transition: 0.3s;
+}
+.sidebar li .text{
+    color: black;
+    transition: 1s;
+}
+
